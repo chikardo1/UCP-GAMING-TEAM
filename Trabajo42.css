@@ -1,0 +1,1023 @@
+body{
+	background:url(https://i.pinimg.com/originals/7c/8e/d1/7c8ed1bf3371deb5ebae24502c082389.jpg);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ContenedorMain */
+#containermain{
+width: 100%;
+margin: 0px auto;
+
+
+
+}
+
+/* Estructura general de la pagina */
+#principal{
+	text-align: center;
+	color: white;
+	padding: 70px;
+	font-size: 20px;
+	background:url();
+}
+/* Header de la pagina "ucp gaming team" */
+#ucp{
+	font-family: 'Press Start 2P', cursive;
+	text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+  border: 7px solid  purple;
+  background:url(https://acegif.com/wp-content/gifs/fire-102.gif);
+  border-radius: 70px;
+  font-size: 25px;
+  height: 280px;
+  padding: 15px;
+  margin-top: -70px;
+ 
+}
+/* Boton de lets go!! */
+#botone{
+	background:url(https://m.gifmania.com/Gif-Animados-Walt-Disney/Imagenes-Peliculas-Walt-Disney/Jorobado-de-Notre-Dame/Esmeralda/Esmeralda-Fuego-84569.gif);
+    color: white;
+    width: 22%;
+    border-radius: 300px;
+    padding: 12px 10px;
+    box-shadow: 2px 2px 5px #999;
+    margin:auto;
+    text-align: center;
+    font-size: 10px;
+    opacity: 1.5;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+    margin-top: 15px;
+    border: 3px solid  purple;
+}
+
+#botone:hover{
+	background:url(https://i.pinimg.com/originals/fe/9e/33/fe9e3345fc3899ace0031b95a09bea96.gif);
+    box-shadow: 0px 2px 7px 1px rgb(0,0,0,.5)
+    font-family: 'Press Start 2P', cursive;
+
+}
+/* Navegacion (ubicacion) */
+nav{
+	background:url(https://media.istockphoto.com/vectors/gaming-gadgets-seamless-pattern-outline-esports-pc-and-console-games-vector-id1166885831?k=6&m=1166885831&s=170667a&w=0&h=fG-gABGbUbHUN6BurZY4MkME5opYtZ6Pw3pW0TJYo5U=);
+	text-align: center;
+	margin: 0px auto;
+	color: white;
+	width: 100%;
+  position: sticky;
+  top: 0;
+
+
+
+
+}
+/*Navegacion (Decoracion) */
+nav ul li{
+ 
+  font-size: 10px;
+  padding: 10px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+}
+
+
+/*Contenedor de Bootstrap */
+.conteiner{
+	background: url(https://media.istockphoto.com/vectors/gaming-gadgets-seamless-pattern-in-deep-blue-outline-esports-pc-and-vector-id1166885668?k=6&m=1166885668&s=612x612&w=0&h=vVNVJkk1dc5HfYsTs6xm8gxFV_SfGMYYXfyiz4fsP8U=);
+
+}
+
+/* Imagen animada de fondo de gaming*/
+#youtube{
+  background-image: url("https://secureservercdn.net/104.238.71.109/zhj.719.myftpupload.com/wp-content/uploads/2020/04/Game-PROMO-1400x300.jpg");
+  background-size: cover;
+  background-position: left;
+  animation-name: anim-fondoBody;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+
+  margin-bottom:-141px;
+  margin-top: -50px;
+  padding: 87px;
+  }
+  @keyframes anim-fondoBody{
+  0%{background-position: left;}
+  100%{background-position: right;}
+
+}
+/*Caja de Jugador Juan Diego */
+#player1{
+  padding: 200px;
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b075a103-9ec7-497f-aed8-1f3d79db039c/dcjp306-4963d6c2-123f-469a-af37-824315c19435.png/v1/fill/w_1024,h_576,q_80,strp/9z_wallpaper___dzz_by_dzzf_dcjp306-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9iMDc1YTEwMy05ZWM3LTQ5N2YtYWVkOC0xZjNkNzlkYjAzOWNcL2RjanAzMDYtNDk2M2Q2YzItMTIzZi00NjlhLWFmMzctODI0MzE1YzE5NDM1LnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.q5U8uUBzdky2fRfKFAemO3aidliJuQygmJeJssvhg7w);
+  display: flex;
+  width: 82%;
+  border: 5px solid purple;
+  margin-left: 150px;
+  margin-top:50px;
+  
+  
+  
+}
+#nombre1{
+  background:grey;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+  width: 90%;
+  height: 640px;
+  border-radius: 130px;
+
+}
+
+#playercaja{
+  background:url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/20c55c110750917.5ff4c7702a48d.gif);
+   width:70%;
+  height: 680px; 
+
+}
+/*Caja de jugador Stefano Simoni */
+#player2{
+  padding: 110px;
+  background: url(https://api.driftgaming.eu/uploads/product/features/bg/a0rsrs7ui2-drift_special_edition_team_queso_fondo.png);
+  display: flex;
+  width: 82%;
+  border: 5px solid orange;
+   margin-left: 150px;
+
+
+  
+}
+#nombre2{
+  background-color: grey;
+  margin-bottom: 40px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+  width: 80%;
+  height: 680px;
+  float:left;
+  border-radius: 130px;
+}
+
+#playercaja2{
+  background:url(https://steamuserimages-a.akamaihd.net/ugc/928173328805849271/587FC463402ABADADEE1CC144726F0FD9D2C9AD8/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+
+
+}
+/* Caja de jugador fernando sanchez */
+#player3{
+  padding: 110px;
+  background: url(https://esports.as.com/2020/06/12/riot-games/Omen-VALORANT_1363673655_407370_1440x600.png);
+  display: flex;
+  width: 82%;
+  border: 5px solid red;
+  margin-left: 150px;
+
+  
+}
+#nombre3{
+  background-color: grey;
+  font-size: 15px;
+   font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+  width: 50%;
+  height: 720px;
+  float:left;
+  border-radius: 130px;
+
+}
+
+#playercaja3{
+  background:url(https://media1.tenor.com/images/0a87fbcdd08e1280c12e26ac2c3bb443/tenor.gif?itemid=17436142);
+  width:70%;
+  height: 680px;
+
+
+}
+/* Caja de jugadora Milagros Rojas */
+#player4{
+  padding: 110px;
+  background: url(https://i.pinimg.com/originals/31/9e/0a/319e0a65e818f477d00a48784cbfca38.jpg);
+  display: flex;
+  width: 82%;
+  border: 5px solid purple;
+   margin-left: 150px;
+   font-size: 15px;
+  
+
+  
+}
+#nombre4{
+  background-color: grey;
+  font-size: 15px;
+   font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+  width: 70%;
+  height: 780px;
+  float:left;
+  border-radius: 130px;
+
+}
+
+#playercaja4{
+  background:url(https://i.pinimg.com/originals/39/ea/f3/39eaf30031e60903d9bc7787da696014.jpg);
+  width:70%;
+  height: 680px;
+
+
+}
+/* Caja de jugador ivan Barboza */
+#player5{
+  padding: 110px;
+  background: url(https://i.pinimg.com/originals/a7/c2/bb/a7c2bbdd94b75b942d19818663d67465.jpg);
+  display: flex;
+  width: 82%;
+  border: 5px solid orange;
+   margin-left: 150px;
+
+  
+}
+#nombre5{
+  background-color: grey;
+  font-size: 15px;
+   font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+  width: 50%;
+  height: 580px;
+  float:left;
+  border-radius: 130px;
+
+}
+
+#playercaja5{
+  background:url(https://i.pinimg.com/originals/b5/cd/a3/b5cda359adf85ecfeaf8232bbac88d93.jpg);
+  width:70%;
+  height: 680px;
+
+
+}
+/* Menu de la navegacion(desplegable) */
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .menuCSS3 a {
+    display: block;
+    padding: 1.6em;
+    background-color: #F9B53C;
+    text-decoration: none;
+    color: #191C26;
+    border-radius: 50px;
+  }
+  .menuCSS3 a:hover {
+    background-color:purple;
+    border-radius: 50px;
+    font-family: 'Press Start 2P', cursive;
+
+  }
+  .menuCSS3 ul li ul {
+    display: none;
+  }
+  .menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+  }
+  /* Footer del programador */
+  footer{
+  background-color: black;
+  font-size: 35px;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  color: gold;
+  font-family: 'Great Vibes', cursive;
+  margin-top: 1000px;
+  text-align: center;
+  padding-top:25px;
+
+}
+#fuego{
+  padding: 75px;
+
+}
+
+.slider {
+  width: 65%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 10px solid orange;
+}
+/* Slider de imagenes de los juegos del equipo gaming */
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
+/* Slider de imagenes de los patrocinadores del equipo */
+.slider2 {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  position:absolute;
+  bottom: -1000%;
+  left: 150px;
+}
+
+.slider2 ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider2 li {
+  width: 50%;
+  list-style: none;
+}
+
+.slider2 img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
+/* Ubicacion del slider 2 */
+.sponsor{
+position: relative;
+top: 600%;
+left:0px;
+ 
+
+}
+#sponsor-letra{
+  position: relative;
+  color: white;
+  font-size: 50;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+  bottom: 600px;
+}
+/* Contenedor del formulario del final */
+.modelo_2{
+    background: none;
+    width: 100%;
+    /* max-width: 560px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    /* padding: 16px; */
+  
+    text-align: center;
+    display:block;
+    font-family: 'Press Start 2P', cursive;
+      text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+        }
+        .etiqueta_2 {
+            color: white;
+            font-size: 1.2em;
+            text-align: center;
+            margin: 0px auto;
+            font-size: 48px;
+            margin-bottom: 100px;
+        }
+        .modelo_2 #formContacto{
+            font-size: 0.7em;
+            font-weight: 400;
+            background:url(https://static.wixstatic.com/media/9e7b2d_ec68a9a2aa7c4c53ab836595f7523331~mv2.gif);
+            width: 100%;
+            max-width: 440px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 70px;
+            box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.3);
+            border-radius: 50px;
+        }
+        .modelo_2 #formContacto span{
+            color: red;
+            font-size: 0.6em;
+            font-weight: 400;
+            margin-top: 14px;
+            float: left;
+        }
+        .modelo_2 #formContacto input{
+            font-size: 0.9em;
+            width: 100%;
+            background: #ffffff;
+            padding: 1px;
+            margin-left: 1px;
+            margin-top: 12px;
+            border: 1px solid rgba(200, 200, 200, 0.4);
+            border-radius: 10px;
+            }
+            .modelo_2 #formContacto input[name="email"]{
+                width: 76%;
+                margin-left:-16px;
+                margin-bottom:12px;
+            }
+            .modelo_2 #formContacto input[name="codigoArea"]{
+                width: 20%;
+                margin-left: 26px;
+            }
+            .modelo_2 #formContacto input[name="telefono"]{
+                width: 52%;
+                margin-left:-200px;
+            }
+            .modelo_2 #formContacto .g-recaptcha{
+                /* width: 50px; */
+                transform: scale(1.2);
+                transform-origin: 0 0;
+                font-size: 100px;
+                margin-top: 20px;
+                margin-bottom: -18px;
+                margin-left:11px;
+            }
+
+        .modelo_2 #formContacto textarea{
+            width: 76%;
+            margin-top: 12px;
+            margin-left:39px;
+            border: 1px solid rgba(200, 200, 200, 0.4);
+            border-radius: 1px;
+            text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+        }
+    
+
+            .modelo_2 #formContacto .linea_div{
+                width: 100%;
+                background: rgba(255, 255, 255, 0.5);
+                padding-bottom: 1px;
+                margin-top: 50px;
+                clear: both;
+        }
+        .modelo_2 #formContacto input[type="submit"]{
+            margin-top: 50px;
+            margin-left: 0px;
+            color: white;
+            font-size: 0.7em;
+            font-weight: 600;
+            padding: 8px;
+            background: #ffffff00;
+            border-radius: 6px;
+            border: 8px solid red;
+            display: block;
+             font-family: 'Press Start 2P', cursive;
+               text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+            }
+            .modelo_2 #formContacto input[type="submit"]:hover{
+                background: 0.7;
+                transition: 0.3s;
+                cursor: pointer;
+            }
+
+
+  #contactos{
+    position: absolute;
+    left: 56%;
+  }
+  /* Iframe de mapa de la cuenca */
+  #iframe{
+    position: relative;
+    bottom: 860px;
+    right: 600px;
+  }
+    #ifram2{
+    position: relative;
+    bottom:60px;
+    right: 600px;
+  }
+  /* Fondo del roster de la ucp  */
+#asd{
+  background-image: url("https://www.corrienteshoy.com/galeria/fotos/2016/08/30/o_30082016091851.jpg");
+  background-size: cover;
+  font-size: 50px;
+  color: black;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding:400px;
+  animation-name: anim-fondoUcp;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+@keyframes anim-fondoUcp{
+  0%{background-position: left;}
+  100%{background-position: right;}
+
+}
+/* Contenedor del roster de la ucp */
+#roster1{
+  position: absolute;
+  left: 10px;
+  top: 90px;
+  transition:5s;
+  
+
+}
+#roster1:active{
+  border-radius: 50px;
+
+}
+/* Animaciones de cada jugador de ucp */
+   .stable {
+      position: relative;
+      height: 220px;
+      right: 290px;
+      }
+      .stable .balloon {
+      position: absolute;
+      bottom: -190;
+      width: 200px;
+      height: 663px;
+      background: url('balloon.png') no-repeat;
+      animation-name:anim-roster;
+      animation-duration:5s;
+      animation-iteration-count:infinite;
+
+      }
+    
+    @keyframes anim-roster{
+    0%{
+      transform:translateY(0px);
+    }
+    100%{
+     transform:translateY(100px); 
+    }
+    }
+
+      .stable .balloon.default {
+      right: 275px;
+       background-color: pink;
+      font-size: 24px;
+      font-family: 'Press Start 2P', cursive;
+      border-radius: 50px;
+      animation-name:anim-roster2;
+      animation-duration:5s;
+      animation-iteration-count:infinite;
+      }
+
+      @keyframes anim-roster2{
+    0%{
+      transform:translateY(0px);
+    }
+    100%{
+     transform:translateY(-100px); 
+    }
+     0%{
+      transform:translateY(0px);
+    }
+    }
+
+      .stable .balloon.linear {
+      right: 239px;
+      transition-timing-function: linear;
+            }
+      .stable .balloon.ease-in {
+      left: 170px;
+      transition-timing-function: ease-in;
+      background-color: yellow;
+      font-size: 24px;
+      font-family: 'Press Start 2P', cursive;
+       border-radius: 50px;
+    
+      }
+  
+      .stable .balloon.ease-out {
+      left: 400px;
+     
+      background-color: green;
+      font-size: 24px;
+      font-family: 'Press Start 2P', cursive;
+       border-radius: 50px;
+      animation-name:anim-roster3;
+      animation-duration:5s;
+      animation-iteration-count:infinite;
+      }
+             @keyframes anim-roster3{
+    0%{
+      transform:translateY(0px);
+    }
+    100%{
+     transform:translateY(-110px); 
+    }
+     0%{
+      transform:translateY(0px);
+    }
+    }
+
+      .stable .balloon.ease-in-out {
+      left: 650px;
+      transition-timing-function: ease-in-out;
+      background-color: orange;
+      font-size: 24px;
+      font-family: 'Press Start 2P', cursive;
+       border-radius: 50px;
+      }
+      .stable .balloon.cubic-bezier {
+      left: 900px;
+      transition-timing-function: cubic-bezier(0,1,1,0);
+      background-color: red;
+      font-size: 24px;
+      font-family: 'Press Start 2P', cursive;
+       border-radius: 50px;
+       animation-name:anim-roster3;
+      animation-duration:5s;
+      animation-iteration-count:infinite;
+
+      }
+
+
+
+
+/* Media querys (ACLARACION IMPORTANTE PARA VOS GUIDO ,de paso aprovecho para mandarte un saludo!! jaja ,
+ solo es responsive para dispositivos pequeños por ahora , en la version UCP-GAMING-TEAM 2.0 voy a hacerlo responsive para cualquier dispositivo,
+ ,eso nomas espero que te este gustando el sitio , lo hice con mucho cariño y creatividad que es en lo que mas me esfuerzo en aplicar en mis sitios.) */
+/* Grandes -> 960px - 1200px */
+@media screen and (min-width:961px) and (max-width:1200px){
+ body{
+  background-color: green;
+ }
+}
+/* Medianos -> 601px - 960px */
+@media screen and (min-width:600px) and (max-width:960px){
+body{
+  background-color: yellow;
+}
+}
+/* Pequeños -> 0px - 600px */
+@media (min-width:0px) and (max-width:600px){
+body{
+  background-color: red;
+
+ }
+
+#ucp{
+  
+  padding: 0;
+  width: 100%;
+  margin-left:  -10px;
+  height: 300px;
+}
+
+#ucp h1{
+  font-size: 35px;
+  width: 100%;
+
+}
+#image{
+ margin-left: -50px;
+}
+
+
+
+.menuCSS3 ul {
+width: 30%;
+font-size: 6.9px;
+flex-wrap: wrap;
+margin:0px auto;
+
+}
+
+
+#content2{
+  width: 95%;
+
+}
+#principal{
+  padding:10px;
+}
+
+nav{
+  position: static;
+}
+
+#youtube{
+  width: 50%;
+
+}
+.slider {
+  width: 15%;
+  padding: 10px;
+  padding-left: 250px;
+  margin: 0px auto;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid orange;
+  background: url(https://static.wikia.nocookie.net/leagueoflegendsoficial/images/8/8c/LOL_Logo.png/revision/latest?cb=20180119195439&path-prefix=es);
+  background-size: cover;
+
+
+}
+ .slider ul {
+  display: flex;
+  padding: 150;
+  width: 400%;
+  margin-left: 40px;
+
+  
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+  width: 200%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+#youtube{
+  background-image: url("https://secureservercdn.net/104.238.71.109/zhj.719.myftpupload.com/wp-content/uploads/2020/04/Game-PROMO-1400x300.jpg");
+  background-size: cover;
+  background-position: left;
+  animation-name: anim-fondoBody;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+  width: 100%;
+  margin-bottom:-141px;
+  margin-top: -50px;
+  padding: 20px;
+
+  }
+  @keyframes anim-fondoBody{
+  0%{background-position: left;}
+  100%{background-position: right;}
+
+}
+#player1{ 
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b075a103-9ec7-497f-aed8-1f3d79db039c/dcjp306-4963d6c2-123f-469a-af37-824315c19435.png/v1/fill/w_1024,h_576,q_80,strp/9z_wallpaper___dzz_by_dzzf_dcjp306-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9iMDc1YTEwMy05ZWM3LTQ5N2YtYWVkOC0xZjNkNzlkYjAzOWNcL2RjanAzMDYtNDk2M2Q2YzItMTIzZi00NjlhLWFmMzctODI0MzE1YzE5NDM1LnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.q5U8uUBzdky2fRfKFAemO3aidliJuQygmJeJssvhg7w);
+  border: 5px solid purple;
+  margin-left: -220px;
+ display: static;
+  padding: 306px; 
+  
+}
+#nombre1{
+
+  display: static;
+  margin: -50px;
+  font-size: 10px;
+  margin-top: 520px;
+
+}
+
+#playercaja{
+  background:none;
+  padding: -250px;
+}
+
+#player2{
+  background: url(https://api.driftgaming.eu/uploads/product/features/bg/a0rsrs7ui2-drift_special_edition_team_queso_fondo.png);
+  border: 5px solid orange;
+  margin-left: -220px;
+  display: static;
+  padding: 306px; 
+  
+
+
+  
+}
+#nombre2{
+  display: static;
+  margin: -50px;
+  font-size: 10px;
+  margin-top: 580px;
+
+
+
+}
+
+#playercaja2{
+  background:none;
+  padding: -250px; 
+
+}
+#botone{
+  width: 60%;
+
+}
+
+#player3{
+  background: url(https://esports.as.com/2020/06/12/riot-games/Omen-VALORANT_1363673655_407370_1440x600.png);
+  border: 5px solid red;
+  margin-left: -220px;
+  display: static;
+  padding: 306px; 
+  
+
+  
+}
+#nombre3{
+  display: static;
+  margin: -50px;
+  font-size: 10px;
+  margin-top: 570px;
+
+
+
+}
+
+#playercaja3{
+ background:none;
+  padding: -250px;
+
+}
+
+#player4{
+  background: url(https://i.pinimg.com/originals/31/9e/0a/319e0a65e818f477d00a48784cbfca38.jpg);
+  border: 5px solid purple;
+  margin-left: -220px;
+  display: static;
+  padding: 306px; 
+
+  
+
+  
+}
+#nombre4{
+  display: static;
+  margin: -50px;
+  font-size: 10px;
+  margin-top: 570px;
+
+}
+
+#playercaja4{
+ background:none;
+ padding: -250px;
+
+
+}
+
+#player5{
+
+  background: url(https://i.pinimg.com/originals/a7/c2/bb/a7c2bbdd94b75b942d19818663d67465.jpg);
+  border: 5px solid orange;
+  margin-left: -220px;
+  display: static;
+  padding: 306px; 
+  
+
+  
+}
+#nombre5{
+  display: static;
+  margin: -50px;
+  font-size: 10px;
+  margin-top: 570px;
+
+}
+
+#playercaja5{
+ background:none;
+ padding: -250px;
+
+
+}
+
+
+.slider2{
+  margin-bottom: -4300px;
+  margin-left: 250px;
+  padding: 100px;
+}
+
+.stable{
+position: relative;
+bottom: 650px;
+left: 70px;
+font-size: 5px;
+}
+.stable .balloon.ease-in{
+position: relative;
+bottom: 375px;
+left: -270px;
+}
+
+ .stable .balloon.ease-out{
+position: relative;
+bottom: 245px;
+left: -470px;
+}
+
+ .stable .balloon.ease-in-out{
+position: relative;
+bottom: 1000px;
+left: -260px;
+}
+
+.col-3{
+
+  padding: 200px;
+}
+
+
+#iframe{
+  position: relative;
+  left: -220px;
+  bottom: -10px;
+}
+.modelo_2{
+  position: relative;
+  bottom: 40px;
+  left: -220px;
+}
+
+footer{
+  margin-bottom: -2500px;
+}
+}
+
+/* ACA TERMINA MEDIA QUERYS */ 
+/* Aca comienza Bootstrap que aplique en torneos concurridos */
+.row{
+  width: 100%;
+  padding: 45px;
+
+  
+  
+}
+.col-lg-6{
+ font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+  background: url(https://esports.as.com/2020/06/12/riot-games/Omen-VALORANT_1363673655_407370_1440x600.png);
+  background-size: cover;
+  color: white;
+  margin-top:20px;
+
+
+}
+.col-md-6{
+ font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+  background: url(https://mir-s3-cdn-cf.behance.net/projects/404/48f4cd99217993.Y3JvcCwxMDc4LDg0MywwLDExNw.png);
+  background-size: cover;
+  color: white;
+  
+
+}
+
+.col-lg-3 ,col-sm-1{
+ padding: 170px;
+ font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 5px #941CBB, 0 0 10px #941CBB, 0 0 15px #941CBB, 0 0 20px #941CBB, 0 0 25px #ff0000, 0 0 30px #ff0000, 0 0 35px #0073e6;
+}
+
